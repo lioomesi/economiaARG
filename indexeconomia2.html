@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Economia Argentina</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos2.css">
+    <link rel="stylesheet" href="estilos3.css">
+    
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>Economia<b>Argentina</b></h1>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="indexeconomia2.html"> <i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a href="inflacion.html"> <i class="fab fa-youtube"> </i>Inflacion</a></li>
+                        <li class="menu-selected"><a href="noticia.html" class="text-menu-selected"> 
+                            <i class="fas fa-file-alt"></i>Noticia</a></li>
+                        <li><a href="sequia.html"> <i class="fas fa-headset"></i> Sequia</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div id="ctn-icon-search">
+                <i class="fas fa-search" id="icon-search"></i>
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+    </div>
+
+    <ul id="box-search">
+        <li><a href="inflacion.html"><i class="fas fa-search"></i>INFLACION</a></li>
+        <li><a href="sequia.html"><i class="fas fa-search"></i>SEQUIA</a></li>
+        <li><a href="noticia.html"><i class="fas fa-search"></i>NOTICIA</a></li>
+        <li><a href="mapa.html"><i class="fas fa-search"></i>MAPA</a></li>
+        <li><a href="#"><i class="fas fa-search"></i>NODEJS</a></li>
+        <li><a href="#"><i class="fas fa-search"></i>VUEJS</a></li>
+        <li><a href="#"><i class="fas fa-search"></i>Como hacer</a></li>
+        <li><a href="#"><i class="fas fa-search"></i>Como crear</a></li>
+    </ul>
+
+    <div id="cover-ctn-search"></div>
+
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+    
+    <div class="blog-container-cover">
+        <div class="container-info-cover">
+            <h1>ECONOMIA ARGENTINA</h1>
+            <p></p>
+        </div>
+    </div>
+
+    <div class="container-post">
+
+        <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+        <input type="radio" id="NOTICIAS RECIENTES" name="categories" value="NOTICIAS RECIENTES">
+        <input type="radio" id="DOLAR" name="categories" value="DOLAR">
+        <input type="radio" id="INFLACION" name="categories" value="INFLACION">
+        <input type="radio" id="SEQUIA PAIS" name="categories" value="SEQUIA PAIS">
+       
+
+        <div class="container-category">
+            <label for="TODOS">TODOS</label>
+            <label for="NOTICIAS RECIENTES">NOTICIAS RECIENTES</label>
+            <label for="DOLAR">DOLAR</label>
+            <label for="INFLACION">INFLACION</label>
+            <label for="PHP">SEQUIA PAIS</label>
+           
+        </div>
+
+        <div class="posts">
+
+            <div class="post" data-category="NOTICIAS RECIENTES">
+
+                <div class="ctn-img">
+                    <img src="https://www.clarin.com/img/2020/10/01/la-tv-argentina-pica-en___KCtznazn9_640x361__1.jpg" alt="">
+                </div>
+                <h2>MIRA NUESTRAS NOTICIAS MAS RECIENTES DEL DIA </h2>
+                <span>26 febrero 2023 - 12:30 pm</span>
+             
+                <a href="noticia.html"><button>Leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="DOLAR">
+
+                <div class="ctn-img"><img src="https://www.cronista.com/files/image/465/465634/62a9d9b0301ed.jpg" alt=""></div>
+                <h2>EL DOLAR SUBIO UN 4.5% DESDE SU ULTIMA VEZ.</h2>
+                <span>26 febrero 2023 - 13:31 pm</span>
+                <ul class="ctn-tag">
+                    
+                </ul>
+                <a href="inflacion.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="JS">
+
+                <div class="ctn-img"><img src="https://media.ambito.com/p/225ef2905f7922b023766376959c7b4c/adjuntos/239/imagenes/039/928/0039928694/frutas-verduras-inflacion-inflacion-supermercado-ipc-precios-canasta-basica-alimentos.jpg" alt=""></div>
+                <h2>¡IMPRESIONANTE!😮 EL PRECIO DE LOS ALIMENTOS ESTA POR LAS NUBES</h2>
+                <span>26 febrero 2023 - 13:32 pm</span>
+                <ul class="ctn-tag">
+                    
+                </ul>
+                <a href="inflacion.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="SEQUIA PAIS">
+
+                <div class="ctn-img"><img src="https://cambio.com.co/wp-content/uploads/2023/02/sequia-en-argentina.jpg" alt=""></div>
+                <h2>EL PORCENTAJE DE LA SEQUIA EN NUESTRO PAIS ES IMPRESIONANTE </h2>
+                <span>26 febrero 2023 - 13:33 am</span>
+                <ul class="ctn-tag">
+                  
+                </ul>
+                <a href="sequia.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="NOTICIAS RECIENTES">
+
+                <div class="ctn-img"><img src="data:image/jpeg;base64,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" alt=""></div>
+                <h2>TIENE 14 AÑOS Y FUE ATRAPADO 2 VECES EN 12 HORAS POR ROBAR COMIDA</h2>
+                <span>26 febrero 2023 - 13:35 am</span>
+                <ul class="ctn-tag">
+                 
+                </ul>
+                <a href="noticia.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/09/01144326/dolares.jpg" alt=""></div>
+                <h2>DOLAR, ¿A CUANTO LO COMPRO?</h2>
+                <span>26 febrero 2023 - 1:40 Pm</span>
+                <ul class="ctn-tag">
+                  
+                </ul>
+                <a href="inflacion.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="https://fotos.perfil.com/2016/12/25/trim/1280/720/aumento-de-la-nafta.jpg" alt=""></div>
+                <h2>LA NAFTA SUBE UN 3% </h2>
+                <span>26 febrero 2023 - 14:00 Pm</span>
+                <ul class="ctn-tag">
+                    
+                </ul>
+                <a href="inflacion.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="CSS NODEJS">
+
+                <div class="ctn-img"><img src="https://www.baenegocios.com/export/sites/cronica/img/2018/08/21/unnamed_x1x.png_635732622.png" alt=""></div>
+                <h2>ARGENTINA EN EL TOP DE  PAISES CON "MAS INFLACION DEL MUNDO"</h2>
+                <span>26 febrero 2023 - 14:52 am</span>
+                <ul class="ctn-tag">
+                  
+                </ul>
+                <a href="inflacion.html"><button>leer más</button></a>
+
+            </div>
+
+
+            
+
+        </div>
+
+    </div>
+
+
+    <div class="container-footer">
+
+        <footer>
+      
+      
+          <div class="redes-footer">
+            <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>
+            <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+          </div>
+      
+          <hr>
+          <h4>© 2023 Economia Argentina - Todos los Derechos Reservados</h4>
+      
+        </footer>
+      
+      </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
